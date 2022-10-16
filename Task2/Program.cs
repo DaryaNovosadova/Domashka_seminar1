@@ -7,8 +7,10 @@ int max = numberA;
 if(numberB < max)
 {
     Console.WriteLine($"MAX = {numberA}");
+    Console.WriteLine($"MIN = {numberB}");
 }
 else
 {
     Console.WriteLine($"MAX = {numberB}");
+    Console.WriteLine($"MIN = {numberA}");
 }
